@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FaceMatch</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body
+    class="relative bg-customDarkBlue h-screen flex items-center justify-center overflow-hidden"
+  >
+    <div class="text-center text-white">
+      <!-- FaceMatch Icon-->
+      <div class="absolute top-4 left-4">
+        <a href="index.html"
+          ><h2 class="text-2xl">
+            Face<span class="text-purple-300">Match</span>
+          </h2></a
+        >
+      </div>
+
+      <!-- 1 circular gradient -->
+      <div
+        class="absolute top-[-300px] right-[-300px] bg-gradient-to-tr from-purple-600 to-purple-800 opacity-30 w-[800px] h-[800px] rounded-full z-10"
+      ></div>
+
+      <!-- 2 circular gradient -->
+      <div
+        class="absolute bottom-[-400px] right-[-200px] bg-gradient-to-br from-purple-600 to-customDarkBlue w-[800px] h-[800px] rounded-full z-20"
+      ></div>
+
+      <!-- 3 circular gradient -->
+      <div
+        class="absolute bottom-[-250px] left-[-250px] bg-gradient-to-tr from-purple-600 to-purple-950 w-[600px] h-[600px] rounded-full z-20"
+      ></div>
+
+      <div class="flex">
+        <div class="items-center justify-center">
+          <!-- Photo Booth -->
+          <div
+            class="relative h-[300px] w-[300px] bg-white mb-7 z-50 mr-10 rounded-xl"
+          ></div>
+          <!-- search Button -->
+          <button class="bg-purple-600 p-5 rounded-full mr-10"></button>
+        </div>
+
+        <!-- Table -->
+        <table
+          class="table-auto border-collapse border-2 border-black bg-white text-black w-[400px] h-[300px] z-50"
+        >
+          <tr>
+            <td class="border border-black px-2 py-2"></td>
+            <td class="border border-black px-2 py-2"></td>
+          </tr>
+          <tr>
+            <td class="border border-black px-2 py-2"></td>
+            <td class="border border-black px-2 py-2"></td>
+          </tr>
+          <tr>
+            <td class="border border-black px-2 py-2"></td>
+            <td class="border border-black px-2 py-2"></td>
+          </tr>
+          <tr>
+            <td class="border border-black px-2 py-2"></td>
+            <td class="border border-black px-2 py-2"></td>
+          </tr>
+          <tr>
+            <td class="border border-black px-2 py-2"></td>
+            <td class="border border-black px-2 py-2"></td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Footer Section -->
+      <footer class="mt-8 text-sm text-purple-300">&copy;2024 FaceMatch</footer>
+    </div>
+  </body>
+</html>
